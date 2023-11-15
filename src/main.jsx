@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import axios from 'axios'
 
-axios.defaults.baseURL="http://localhost:8000"
+axios.defaults.baseURL="https://gymsite.pythonanywhere.com"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
