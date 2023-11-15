@@ -68,6 +68,15 @@ p{
     .footer__box{
       width: 100%;
       padding: 10px;
+      ul{
+        width: 100%;
+        li{
+          list-style: none;
+          a{
+            text-decoration: none;
+          }
+        }
+      }
     }
 
   }
